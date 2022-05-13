@@ -1,0 +1,228 @@
+
+> start
+> node --experimental-json-modules index.js
+
+Example app listening on port 3001!
+ 
+    08:59:05 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    08:59:05 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    08:59:05 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+ 
+    08:59:05 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+ 
+    09:08:52 | New remote call from ID: ::ffff:94.101.18.161, with method of getTradingVolume 
+
+ 
+    09:08:52 | New remote call from ID: ::ffff:94.101.18.161, with method of getTradingVolume 
+
+ 
+    09:08:52 | New remote call from ID: ::ffff:94.101.18.161, with method of getTokenInfo 
+
+ 
+    09:08:52 | New remote call from ID: ::ffff:94.101.18.161, with method of getTokenInfo 
+
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+ 
+    13:35:13 | New remote call from ID: ::ffff:178.39.16.81, with method of getTradingVolume 
+
+ 
+    13:35:13 | New remote call from ID: ::ffff:178.39.16.81, with method of getTradingVolume 
+
+ 
+    13:35:13 | New remote call from ID: ::ffff:178.39.16.81, with method of getTokenInfo 
+
+ 
+    13:35:13 | New remote call from ID: ::ffff:178.39.16.81, with method of getTokenInfo 
+
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+ 
+    11:04:59 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    11:04:59 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    11:04:59 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+ 
+    11:04:59 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+ 
+    11:05:06 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    11:05:06 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    11:05:06 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+ 
+    11:05:06 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+ 
+    11:05:33 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    11:05:33 | New remote call from ID: ::ffff:46.175.14.88, with method of getTradingVolume 
+
+ 
+    11:05:33 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+ 
+    11:05:33 | New remote call from ID: ::ffff:46.175.14.88, with method of getTokenInfo 
+
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+Error: invalid address or ENS name (argument="name", value=null, code=INVALID_ARGUMENT, version=contracts/5.6.0)
+    at Logger.makeError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:233:21)
+    at Logger.throwError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:242:20)
+    at Logger.throwArgumentError (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/logger/lib/index.js:245:21)
+    at /root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:94:32
+    at step (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/root/APPS/tsukidao/tsuki-backend/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address or ENS name',
+  code: 'INVALID_ARGUMENT',
+  argument: 'name',
+  value: null
+}
+
+> start
+> node --experimental-json-modules index.js
+
+Example app listening on port 3001!

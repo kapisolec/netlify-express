@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@ethers-ancillary/bsc": "^0.0.3",
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "env": "^0.0.2",
+    "ethers": "^5.6.2",
+    "express": "^4.17.3"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js",
+    "dev": "nodemon --ignore 'data/*.json' --experimental-json-modules index.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

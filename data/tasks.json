@@ -1,0 +1,32 @@
+[
+    {
+        "name":"task1",
+        "description":"Visit us on CMC",
+        "website":"https://coinmarketcap.com/",
+        "action":"upvote"
+    },
+    {
+        "name":"task2",
+        "description":"Visit us on CG",
+        "website":"https://coingecko.com/",
+        "action":"upvote"
+    },
+    {
+        "name":"task3",
+        "description":"Visit us on Dextools",
+        "website":"https://www.dextools.io/app/ether/pair-explorer/0xf4f0bad0583507ee9a6a027604a7eea843a3e745",
+        "action":"upvote"
+    },
+    {
+        "name":"task4",
+        "description":"Post a tweet about our launch tagging us and using creative #, don't forget about @tsukidao!",
+        "website":"https://twitter.com",
+        "action":"tweet"
+    },
+    {
+        "name":"task5",
+        "description":"Visit us on CMC, CG and Dextools for algorithm! Post about os and our newest updates, don't forget to @tsukidao!",
+        "website":["https://coinmarketcap.com/", "https://coingecko.com/", "https://www.dextools.io/app/ether/pair-explorer/0xf4f0bad0583507ee9a6a027604a7eea843a3e745"],
+        "action":"tweet"
+    }
+]
