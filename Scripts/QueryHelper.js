@@ -255,13 +255,16 @@ export default class QueryHelper {
       this.provider
     );
 
+    const totalSupply = await tokenContract.totalSupply();
     const decimals = await tokenContract.decimals();
     const tokenInfo = await this.getTokenInfo(token);
     const balanceOfToken =
       (await tokenContract.balanceOf(address)) / 10 ** decimals;
     const valueOfToken = balanceOfToken * tokenInfo.pricePerToken;
+    const percentageOfSupply =
+      (balanceOfToken / (totalSupply.toNumber() / 10 ** decimals)) * 100;
 
-    return { balanceOfToken, valueOfToken };
+    return { balanceOfToken, valueOfToken, percentageOfSupply };
   };
 
   getNativeTokenBalance = async (address) => {

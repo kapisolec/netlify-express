@@ -41,8 +41,14 @@ helper.listenForNewTransfers(
   transferCb
 );
 
+// setInterval(() => {
+//   axios.post('195.201.6.251:3000/rpc', {
+
+//   })
+// }, 1*60*60*1000);
+
 const app = express();
-const port = 3001;
+const port = 80;
 
 const getTime = () => {
   let h = new Date().getHours();
@@ -60,15 +66,24 @@ const getTime = () => {
 };
 
 app.use(bodyParser.json());
-app.use(cors({ methods: "*", origin: "*" }));
+app.use(cors());
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 // routes
 app.get("/", (req, res) => res.send("Hello World!"));
 
-// setInterval(() => {
-//   axios.post('')
-// }, 3600000);
+setInterval(() => {
+  console.log("generating raport");
+  axios.post("195.201.6.251:3001/rpc", {
+    method: "forceGenerateRaport",
+    params: {
+      token: "0x321fd4ef6b02b49f86d3f76a132b65fff73c7e96",
+      nativeToken: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      nativeTokenValInUSD: 310,
+      intervals: [1, 8, 24, 168],
+    },
+  });
+}, 1800000);
 
 app.post("/rpc", async function (req, res) {
   const { method, params } = req.body;
@@ -200,6 +215,19 @@ app.get("/get-leaderboard", async (req, res) => {
     );
 
     return res.status(200).send(sorted);
+  } catch (error) {
+    console.error(error);
+    return res.status(400).send(JSON.stringify(error));
+  }
+});
+
+app.post("/get-user-info", async (req, res) => {
+  try {
+    const { wallet, token } = req.body;
+    //sort by highest reward
+    const userData = await helper.getUserInfo(wallet, token);
+
+    return res.status(200).send(userData);
   } catch (error) {
     console.error(error);
     return res.status(400).send(JSON.stringify(error));
